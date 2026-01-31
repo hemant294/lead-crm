@@ -51,7 +51,7 @@ const Testimonials = () => {
 
   return (
     <section className="py-28 px-4 bg-white relative">
-      <img src="/images/Testimonials/Ball.svg" alt="Capterra" className="absolute h-28 right-2 -top-12" />
+      <img src="/images/Testimonials/Ball.png" alt="Capterra" className="absolute h-28 right-2 -top-12" />
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-12">

@@ -4,37 +4,37 @@ const marqueMap = [
     {
         id: 1,
         name: "Access to 700M+ Contacts",
-        icon: "",
+        icon: "/images/icons/contacts.svg",
     },
     {
         id: 2,
         name: "One click push to CRM",
-        icon: "",
+        icon: "/images/icons/pointer.svg",
     },
     {
         id: 3,
         name: "Custom Field Mapping",
-        icon: "",
+        icon: "/images/icons/mapping.svg",
     },
     {
         id: 4,
         name: "Advanced Waterfall Enrichment",
-        icon: "",
+        icon: "/images/icons/waterfall.svg",
     },
     {
         id: 5,
         name: "Instent Email Finder",
-        icon: "",
+        icon: "/images/icons/contacts.svg",
     },
     {
         id: 6,
         name: "Seamless Deal Management",
-        icon: "",
+        icon: "/images/icons/feature.png",
     },
     {
         id: 7,
         name: "Advanced AI Product",
-        icon: "",
+        icon: "/images/icons/contacts.svg",
     }
 ]
 
@@ -48,9 +48,9 @@ const Marque = () => {
             <div
               key={index}
               className="flex items-center gap-2 px-6 py-3
-              rounded-full  text-gray-800 font-medium text-sm"
+              rounded-full  text-gray-800 font-medium text-sm sm:text-md"
             >
-              <span className="w-2 h-2 rounded-full bg-[#2D96BC]" />
+              <img src={item.icon} />
               {item.name}
             </div>
           ))}

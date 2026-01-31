@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../components/Button";
 
 const ProspectorFace = () => {
   return (
@@ -184,9 +185,7 @@ const ProspectorFace = () => {
 
         {/* CTA */}
         <div className="mt-8 md:mt-18 text-center gap-4 relative">
-          <button className="bg-lime-400 hover:bg-lime-500 transition px-8 py-3 rounded-xl font-semibold text-gray-900">
-            Start Using LeadCRM Now
-          </button>
+          <Button name={" Start Using LeadCRM Now"} />
 
           <img src="/images/saveHoursImg.png" alt="HubSpot" className="hidden md:block absolute -top-14 right-68 h-32" />
         </div>

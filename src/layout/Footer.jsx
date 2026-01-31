@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[linear-gradient(277.75deg,rgba(1,178,216,0.22)_0%,rgba(1,178,216,0.07)_77%)] py-12 relative">
-      <div className="max-w-7xl mx-auto px-4">
+    <footer className="bg-[linear-gradient(277.75deg,rgba(1,178,216,0.22)_0%,rgba(1,178,216,0.07)_77%)] py-12">
+      <div className="max-w-7xl mx-auto px-4 relative">
 
         {/* Top Section */}
         <div className="flex flex-col lg:flex-row justify-between gap-12 pb-12 text-center lg:text-left">
@@ -90,7 +90,7 @@ const Footer = () => {
             </div>
 
             {/* Chrome Badge */}
-            <div className="mt-6 lg:absolute lg:bottom-36 lg:right-24 flex justify-center">
+            <div className="mt-6 lg:absolute lg:bottom-26 lg:right-0 flex justify-center">
               <div className="bg-[#242424] w-[170px] text-white rounded-xl px-3 py-2 inline-flex items-center justify-between">
                 <span className="text-sm">Available in Chrome</span>
                 <div className="bg-white p-1 rounded-full w-9 h-9 flex items-center justify-center">
